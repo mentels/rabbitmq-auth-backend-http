@@ -195,6 +195,8 @@ Users list:
 
 ### rabbitmq.config Example
 
+ℹ️ Dont forget to set the proper url in your rabbit config file
+
 Below is a [RabbitMQ config file](http://www.rabbitmq.com/configure.html) example to go with this
 example:
 
