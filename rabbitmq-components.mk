@@ -40,7 +40,6 @@ endif
 dep_amqp_client                       = git_rmq rabbitmq-erlang-client $(current_rmq_ref) $(base_rmq_ref) master
 dep_amqp10_client                     = git_rmq rabbitmq-amqp1.0-client $(current_rmq_ref) $(base_rmq_ref) master
 dep_amqp10_common                     = git_rmq rabbitmq-amqp1.0-common $(current_rmq_ref) $(base_rmq_ref) master
-dep_ra                                = git_rmq ra $(current_rmq_ref) $(base_rmq_ref) master
 dep_rabbit                            = git_rmq rabbitmq-server $(current_rmq_ref) $(base_rmq_ref) master
 dep_rabbit_common                     = git_rmq rabbitmq-common $(current_rmq_ref) $(base_rmq_ref) master
 dep_rabbitmq_amqp1_0                  = git_rmq rabbitmq-amqp1.0 $(current_rmq_ref) $(base_rmq_ref) master
@@ -126,7 +125,6 @@ dep_sysmon_handler = hex 1.1.0
 RABBITMQ_COMPONENTS = amqp_client \
 		      amqp10_common \
 		      amqp10_client \
-		      ra \
 		      rabbit \
 		      rabbit_common \
 		      rabbitmq_amqp1_0 \
