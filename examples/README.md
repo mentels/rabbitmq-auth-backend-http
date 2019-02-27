@@ -49,7 +49,7 @@ not designed to be anything other than an example.
 Import the example as a Maven project in your favorite IDE or run it directly from the command line:
 
 ``` shell
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
 The application listens on the 8080 port.
@@ -194,8 +194,6 @@ Users list:
 | bunny | bugs | | | | | | policymaker |
 
 ### rabbitmq.config Example
-
-ℹ️ Dont forget to set the proper url in your rabbit config file
 
 Below is a [RabbitMQ config file](http://www.rabbitmq.com/configure.html) example to go with this
 example:
